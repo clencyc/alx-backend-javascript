@@ -1,7 +1,7 @@
 export default class Currency {
-  constructor(_code, _name) {
-    this._code = _code;
-    this._name = _name;
+  constructor(code, name) {
+    this._code = code;
+    this._name = name;
   }
 
   displayFullCurrency() {
