@@ -28,6 +28,22 @@ interface TeacherInterface {
 
 class Teacher {
     TeacherInterface() {
-        
+
     }
+}
+
+// function returns a director or a teacher instance 
+function createEmployee(salary: string) {
+    if (salary <= 500) {
+        return new Teacher;
+    } else {
+        return Director;
+    }
+
+}
+
+// employee argument will be used as a type predicate 
+// and if the employee is a director
+function isDirector(employee) {
+
 }
